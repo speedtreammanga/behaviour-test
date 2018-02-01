@@ -1,0 +1,31 @@
+{
+  "name": "react-list",
+  "version": "1.0.0",
+  "description": "small react list app for Behaviour Interactive",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run build && webpack-dev-server --inline --progress",
+    "build": "webpack --progress"
+  },
+  "author": "Alexandre Fournier-Ahizoune",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "html-webpack-plugin": "^2.30.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0"
+  }
+}
